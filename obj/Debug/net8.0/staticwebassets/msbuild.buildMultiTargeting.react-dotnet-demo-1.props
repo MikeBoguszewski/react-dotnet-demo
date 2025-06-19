@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/react-dotnet-demo-1.props" />
+</Project>
