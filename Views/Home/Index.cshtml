@@ -2,18 +2,15 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div>
-    <h1>Welcome to the .NET App</h1>
+<div class="container">
+    @* <h1>Welcome to the .NET App</h1> *@
+    <button class="btn btn-primary">Hello from Blazor</button>
 
-    <div data-island="greeting" data-props='{"name": "Michael"}'></div>
+    <div data-island="greeting" data-props='{"name": "there", "text": "test text"}'></div>
+
+    <div data-island="framer-test"></div>
 </div>
 
-<!-- Load Vite-bundled JS -->
-@* access through manifest file in .vite? *@
-@{
-    var manifestPath = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "dist", ".vite", "manifest.json");
-    var manifestJson = System.IO.File.ReadAllText(manifestPath);
-    var manifest = System.Text.Json.JsonDocument.Parse(manifestJson);
-    var mainJs = manifest.RootElement.GetProperty("src/main.tsx").GetProperty("file").GetString();
-}
-<script type="module" src="/dist/@mainJs"></script>
+
+
+
