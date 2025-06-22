@@ -7,4 +7,10 @@
     <RootNamespace>react_dotnet_demo_1</RootNamespace>
   </PropertyGroup>
 
+<!-- Very Important -->
+<ItemGroup>
+  <Content Include="wwwroot/dist/.vite/**" CopyToPublishDirectory="PreserveNewest" />
+</ItemGroup>
+
+
 </Project>
