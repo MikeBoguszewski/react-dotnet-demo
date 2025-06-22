@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/michaelboguszewski/Desktop/react-dotnet-demo
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/michaelboguszewski/Desktop/react-dotnet-demo/Views/Home/Example.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FeGFtcGxlLmNzaHRtbA==
+[/Users/michaelboguszewski/Desktop/react-dotnet-demo/Views/Home/Examples.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FeGFtcGxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/michaelboguszewski/Desktop/react-dotnet-demo/Views/Home/Index.cshtml]

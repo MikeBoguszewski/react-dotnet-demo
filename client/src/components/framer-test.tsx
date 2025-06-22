@@ -8,21 +8,6 @@ export default function FramerTest() {
   }, []);
   return (
     <>
-      Framer Motion Test:
-      {/* <motion.div
-        style={{
-          width: "100px",
-          height: "100px",
-          borderRadius: "9999px", // full circle
-          backgroundImage: "radial-gradient(circle, white, transparent)",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "100% 100%",
-          filter: "blur(8px)",
-        }}
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-      /> */}
       <motion.div
         style={{
           width: 100,

@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import Greeting from "./components/greeting";
 import Hero from "./components/hero";
 import "./index.css";
-import FramerTest from "./components/framer-test";
+import Examples from "./components/examples";
 
 
 // Mount islands by selector
@@ -20,8 +20,8 @@ const islands = [
     propsAttr: "data-props",
   },
   {
-    selector: '[data-island="framer-test"]',
-    component: FramerTest,
+    selector: '[data-island="examples"]',
+    component: Examples,
     propsAttr: "data-props",
   },
 ];
