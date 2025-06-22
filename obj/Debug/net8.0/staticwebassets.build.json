@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h6HZZo6/pEhpBcFPVKIicgWXK5Kx/yP2qS5enTCYVPM=",
+  "Hash": "lmzl78emISEJ3gnMvKduLosLWwSJq6ei1BDO2kfPFKk=",
   "Source": "react-dotnet-demo-1",
   "BasePath": "_content/react-dotnet-demo-1",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/dist/assets/main-Chs2oRuy.js",
+      "Identity": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/dist/assets/main-Dm0qCXPs.js",
       "SourceId": "react-dotnet-demo-1",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/",
       "BasePath": "_content/react-dotnet-demo-1",
-      "RelativePath": "dist/assets/main-Chs2oRuy.js",
+      "RelativePath": "dist/assets/main-Dm0qCXPs.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/dist/assets/main-Chs2oRuy.js"
+      "OriginalItemSpec": "wwwroot/dist/assets/main-Dm0qCXPs.js"
     },
     {
-      "Identity": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/dist/assets/main-CmTEQIb3.css",
+      "Identity": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/dist/assets/main-DvB9zrCr.css",
       "SourceId": "react-dotnet-demo-1",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/",
       "BasePath": "_content/react-dotnet-demo-1",
-      "RelativePath": "dist/assets/main-CmTEQIb3.css",
+      "RelativePath": "dist/assets/main-DvB9zrCr.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/dist/assets/main-CmTEQIb3.css"
+      "OriginalItemSpec": "wwwroot/dist/assets/main-DvB9zrCr.css"
     },
     {
       "Identity": "/Users/michaelboguszewski/Desktop/react-dotnet-demo/wwwroot/dist/vite.svg",

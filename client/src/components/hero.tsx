@@ -1,4 +1,3 @@
-"use client";
 import { BackgroundBeams } from "./ui/background-beams";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 export default function Hero() {

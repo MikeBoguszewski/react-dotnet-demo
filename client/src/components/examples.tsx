@@ -1,14 +1,20 @@
 import { motion } from "motion/react";
+import { CalendarDemo } from "./calendar-demo";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { StreamingDemo } from "./streaming-demo";
+import { PopoverDemo } from "./popover-demo";
+import ColourfulText from "./ui/colourful-text";
 
-export default function Examples() {
+export default function Examples({ text }: { text: string }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-6">
       <Card>
         <CardHeader>
-          <CardTitle>ShadCN Components</CardTitle>
+          <CardTitle>UI Components</CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="flex gap-1">
+          <CalendarDemo />
+          <PopoverDemo />
         </CardContent>
       </Card>
 
@@ -16,7 +22,7 @@ export default function Examples() {
         <CardHeader>
           <CardTitle>Motion</CardTitle>
         </CardHeader>
-        <CardContent className="flex flex-col items-center">
+        <CardContent className="flex flex-row items-center justify-center gap-28 h-full w-full">
           <motion.div
             style={{
               width: 100,
@@ -38,14 +44,26 @@ export default function Examples() {
               ease: "easeInOut",
             }}
           />
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          style={{
+            width: 100,
+            height: 100,
+            backgroundColor: "#9911ff",
+            borderRadius: 5,
+          }}
+        />
         </CardContent>
       </Card>
 
       <Card>
         <CardHeader>
-          <CardTitle>Chatbot (Streaming)</CardTitle>
+          <CardTitle>Streaming</CardTitle>
         </CardHeader>
-        <CardContent>{/* Your chatbot or preview */}</CardContent>
+        <CardContent>
+          <StreamingDemo />
+        </CardContent>
       </Card>
 
       <Card>
@@ -54,7 +72,10 @@ export default function Examples() {
         </CardHeader>
         <CardContent>
           <p>Data can be passed from Razor to React using data-props.</p>
-          <p><strong>Hello from React</strong></p>
+          <h2>
+            Hello from <ColourfulText text="React"/>
+          </h2>
+          <h2>{text}</h2>
         </CardContent>
       </Card>
     </div>

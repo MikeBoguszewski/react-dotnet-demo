@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Greeting from "./components/greeting";
 import Hero from "./components/hero";
 import "./index.css";
 import Examples from "./components/examples";
@@ -9,11 +8,6 @@ import Examples from "./components/examples";
 
 // Mount islands by selector
 const islands = [
-  {
-    selector: '[data-island="greeting"]',
-    component: Greeting,
-    propsAttr: "data-props",
-  },
   {
     selector: '[data-island="hero"]',
     component: Hero,
